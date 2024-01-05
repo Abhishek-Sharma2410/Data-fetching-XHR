@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(221 214 254);
+}
+.github-card{
+    background-color: rgba(17, 24, 39, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 30px;
+}
+.light-color{
+    color: rgba(156, 163, 175, 1);
+    text-align: center;
+}
+.input > input{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.input > input::placeholder{
+    font-size: 1rem;
+}
+#getData{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #a78bfa;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.inoneline{
+    display: inline-block;
+}
+#name > i, #followers > i{
+    font-size: 1.25rem;
+}
